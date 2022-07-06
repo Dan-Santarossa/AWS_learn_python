@@ -5,7 +5,8 @@
 #A floating point number is a number followed by a decimal point such as 50.5.
 
 #Using Number Variables in Strings
-#In the previous section on strings you learnt that you can use the + to add strings together to form sentences. You also learned that you can insert variables into a sentence using the {}.
+#In the previous section on strings you learnt that you can use the + to add strings together to form sentences. 
+#You also learned that you can insert variables into a sentence using the {}.
 
 #What happens if we try to use a number with these two different methods?
 
@@ -21,10 +22,10 @@ sentence = "The total comes to: "
 
 #Fix the error by converting the int data type to a str data type.
 print(sentence + str(my_int))
-
-#We have used the str() method to convert the variable from an integer to a string. In most cases python will determine the type of data without having to declare it. However, it can be useful to tell python exactly how you want to treat the data type. Other examples are:
-
-#str() returns a string object
-#int() returns an integer object
-#float() returns a floating point object
-#bool() a boolean value of True or False
+print("{}{}".format(sentence, my_int))
+#We have used the str() method to convert the variable from an integer to a string. In most cases python will determine the type of data without having to declare it. 
+#However, it can be useful to tell python exactly how you want to treat the data type. Other examples are:
+    #str() returns a string object
+    #int() returns an integer object
+    #float() returns a floating point object
+    #bool() a boolean value of True or False
